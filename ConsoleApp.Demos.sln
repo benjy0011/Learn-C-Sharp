@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp.UserInputDemo", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp.Operators", "ConsoleApp.Operators\ConsoleApp.Operators.csproj", "{D2862692-B862-4761-846C-B2A2B61C8C8B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp.ConditionsAndDecisions", "ConsoleApp.ConditionsAndDecisions\ConsoleApp.ConditionsAndDecisions.csproj", "{524821A0-8FED-40F8-A210-4A7BDAB76D0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp.SampleCalculator", "ConsoleApp.SampleCalculator\ConsoleApp.SampleCalculator.csproj", "{DF6BECF5-7063-47FC-8FB4-60B84AE6C667}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{D2862692-B862-4761-846C-B2A2B61C8C8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D2862692-B862-4761-846C-B2A2B61C8C8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D2862692-B862-4761-846C-B2A2B61C8C8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{524821A0-8FED-40F8-A210-4A7BDAB76D0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{524821A0-8FED-40F8-A210-4A7BDAB76D0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{524821A0-8FED-40F8-A210-4A7BDAB76D0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{524821A0-8FED-40F8-A210-4A7BDAB76D0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF6BECF5-7063-47FC-8FB4-60B84AE6C667}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF6BECF5-7063-47FC-8FB4-60B84AE6C667}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF6BECF5-7063-47FC-8FB4-60B84AE6C667}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF6BECF5-7063-47FC-8FB4-60B84AE6C667}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
