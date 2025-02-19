@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp.ConditionsAndDec
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp.SampleCalculator", "ConsoleApp.SampleCalculator\ConsoleApp.SampleCalculator.csproj", "{DF6BECF5-7063-47FC-8FB4-60B84AE6C667}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp.Loops", "ConsoleApp.Loops\ConsoleApp.Loops.csproj", "{26B3E617-8320-488C-B4A9-E243FD0E5986}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{DF6BECF5-7063-47FC-8FB4-60B84AE6C667}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF6BECF5-7063-47FC-8FB4-60B84AE6C667}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF6BECF5-7063-47FC-8FB4-60B84AE6C667}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26B3E617-8320-488C-B4A9-E243FD0E5986}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26B3E617-8320-488C-B4A9-E243FD0E5986}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26B3E617-8320-488C-B4A9-E243FD0E5986}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26B3E617-8320-488C-B4A9-E243FD0E5986}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
