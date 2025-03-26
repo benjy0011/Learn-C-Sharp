@@ -25,6 +25,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp.DateTimeManipula
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp.Methods", "ConsoleApp.Methods\ConsoleApp.Methods.csproj", "{53D1BDDF-8990-4B2D-B40A-DF0569B6D4C2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp.Arrays", "ConsoleApp.Arrays\ConsoleApp.Arrays.csproj", "{ABFA0E6D-9701-4162-BCE0-F0C8F7271E28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp.Lists", "ConsoleApp.Lists\ConsoleApp.Lists.csproj", "{B0A7E2B1-B9DC-4E89-B224-640AA4002C1D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +79,14 @@ Global
 		{53D1BDDF-8990-4B2D-B40A-DF0569B6D4C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{53D1BDDF-8990-4B2D-B40A-DF0569B6D4C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{53D1BDDF-8990-4B2D-B40A-DF0569B6D4C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABFA0E6D-9701-4162-BCE0-F0C8F7271E28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABFA0E6D-9701-4162-BCE0-F0C8F7271E28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABFA0E6D-9701-4162-BCE0-F0C8F7271E28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABFA0E6D-9701-4162-BCE0-F0C8F7271E28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0A7E2B1-B9DC-4E89-B224-640AA4002C1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0A7E2B1-B9DC-4E89-B224-640AA4002C1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0A7E2B1-B9DC-4E89-B224-640AA4002C1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0A7E2B1-B9DC-4E89-B224-640AA4002C1D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
