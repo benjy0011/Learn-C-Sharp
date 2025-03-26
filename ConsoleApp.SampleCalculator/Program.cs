@@ -9,15 +9,7 @@ while (choice != 0)
 {
     try
     {
-        Console.Clear();
-        // Prompt for user input
-        Console.WriteLine("Please select an operation");
-        Console.WriteLine("1. Addition");
-        Console.WriteLine("2. Subtraction");
-        Console.WriteLine("3. Multiplication");
-        Console.WriteLine("4. Division");
-        Console.WriteLine("5. Fibonacci");
-        Console.WriteLine("\n0. Exit");
+        PrintMenu();
 
         choice = Convert.ToInt32(Console.ReadLine());
 
@@ -36,22 +28,19 @@ while (choice != 0)
         switch (choice)
         {
             case 1:
-                answer = num1 + num2;
+                answer = AddNumbers(num1, num2);
                 break;
             case 2:
-                answer = num1 - num2;
+                answer = SubtractNumbers(num1, num2);
                 break;
             case 3:
-                answer = num1 * num2;
+                answer = Product(num1, num2);
                 break;
             case 4:
-                answer = num1 / num2;
+                answer = Quotient(num1, num2);
                 break;
             case 5:
-                for (int i = num1; i <= num2; i++)
-                {
-                    answer += i;
-                }
+                answer = Fibonaci(num1, num2);
                 break;
             default:
                 throw new Exception("Invalid Menu Item Selected");
@@ -74,4 +63,51 @@ while (choice != 0)
         Console.ReadLine();
     }
 
+}
+
+
+
+// Method definition
+
+void PrintMenu()
+{
+    Console.Clear();
+    // Prompt for user input
+    Console.WriteLine("Please select an operation");
+    Console.WriteLine("1. Addition");
+    Console.WriteLine("2. Subtraction");
+    Console.WriteLine("3. Multiplication");
+    Console.WriteLine("4. Division");
+    Console.WriteLine("5. Fibonacci");
+    Console.WriteLine("\n0. Exit");
+}
+
+int AddNumbers(int num1, int num2)
+{
+   return num1 + num2;
+}
+
+int SubtractNumbers(int num1, int num2)
+{
+    return num1 - num2;
+}
+
+int Product(int num1, int num2)
+{
+    return num1 * num2;
+}
+
+int Quotient(int num1, int num2)
+{
+    return num1 / num2;
+}
+
+int Fibonaci(int num1, int num2)
+{
+    int answer = 0;
+    for (int i = num1; i <= num2; i++)
+    {
+        answer += i;
+    }
+    return answer;
 }
